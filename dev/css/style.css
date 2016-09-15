@@ -1,0 +1,138 @@
+body {
+    background: url("img/groovepaper.png");
+    font: 1em 'Tahoma', Arial;
+    color: #5f5f5f;
+    padding: 0;
+    margin: 0;
+}
+div#header {
+    width: 660px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+div#header h1 {
+    margin-bottom: 60px;
+}
+div#header p {
+    text-transform: none;
+
+}
+div#checkArea {
+    width: 980px;
+    margin: 10px auto;
+}
+
+table#word td {
+    margin: 0;
+    width: 64px;
+    height: 100px;
+    cursor: pointer;
+    background: #e8e8e8;
+    text-align: center;
+}
+div#cardArea {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.draggable{
+    display: inline-block;
+    width: 60px;
+    height: 90px;
+    line-height: 90px;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5%;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
+    inset 0 2px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(0, 0, 0, .1),
+    inset 0 0 20px rgba(0, 0, 0, .1);
+
+    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
+    inset 0 2px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(0, 0, 0, .1),
+    inset 0 0 20px rgba(0, 0, 0, .1);
+
+    -moz-box-shadow: 0 3px 20px rgba(0, 0, 0, .25),
+    inset 0 2px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(0, 0, 0, .1),
+    inset 0 0 20px rgba(0, 0, 0, .1);
+}
+div#cardArea div {
+    margin: 20px;
+}
+tr#wordRow td {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    background-color: rgba(105, 210, 0, 0.71);
+    border: 1px solid #ffffff;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+.hide {
+    display:none;
+}
+div#controlElements {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+button {
+    width: 190px;
+    height: 32px;
+    -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+    -webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+    box-shadow:inset 0px 39px 0px -24px #e67a73;
+    background-color:#e4685d;
+    -moz-border-radius:16px;
+    -webkit-border-radius:16px;
+    border-radius:16px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    padding:6px 15px;
+    text-shadow:0px 1px 0px #b23e35;
+}
+button#refreshPage {
+    position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    margin-top: 20px;
+}
+table td {
+    border-radius: 5px;
+}
+div#congratArea {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid rgba(105, 210, 0, 0.71);
+    padding: 20px 10px;
+    text-align: center;
+}
+div#congratArea p {
+    text-align: justify;
+}
+div#congratArea img {
+    border-radius: 10px;
+}

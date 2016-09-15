@@ -1,1 +1,52 @@
-My Page
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="dev/css/style.css"/>
+    <script src="dev/js/libs/jquery-2.1.4.min.js"></script>
+    <script src="dev/js/src/game.js"></script>
+</head>
+<body>
+
+<div id="header">
+    <h1>Порівняння десяткових дробів</h1>
+    <p>Розташуйте десяткові дроби, подані нижче, в порядку зростання</p>
+</div>
+
+<div id="checkArea">
+
+    <table id="word">
+        <tr>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+            <td class="droppable"></td>
+        </tr>
+    </table>
+    <div id="controlElements">
+        <button id="checkResult">Перевірити результат</button>
+        <button class="tryAgain" onClick="window.location.reload()">Спробувати ще</button>
+    </div>
+</div>
+
+<div id="cardArea">
+
+</div>
+
+<div id="congratArea" class="hide">
+
+</div>
+<button id="refreshPage" class="hide" onClick="window.location.reload()">Почати знову</button>
+</body>
+</html>
